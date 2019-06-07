@@ -7,7 +7,7 @@ public abstract class Trainer {
 
 	String name;
 	int option, selectedAttack, pokemonSelected;
-	boolean surrender, teamAlive;
+	boolean surrender, teamAlive, winner=false, defeated=false;
 	PokemonFactory pokemonFactoryRandomized=new PokemonFactoryRandomized();
 	Presenter presenter=new Presenter();
 	List<Pokemon> pokeTeam=new ArrayList<Pokemon>();

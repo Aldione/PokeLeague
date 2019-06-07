@@ -27,13 +27,9 @@ public class Combat {
 	 * 		3.3 If one of the trainers run out of pokemons, the other wins
 	 */
 	
-	Combat(){
+	Combat(Trainer trainer1, Trainer trainer2){
 		
 		int option1, option2;
-			
-		//0. We create the trainers
-		trainer1=new Machine();
-		trainer2=new Machine();
 		
 		//0.1 User will be allowed to choose his nickname
 		trainer1.askName();

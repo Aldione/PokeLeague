@@ -14,7 +14,7 @@ import estados.Sano;
 import pokemon.Died;
 
 
-public class CPUJuan {
+public class CPUJuan extends Entrenador{
 
 	String requestName() {
 		return "Juan a.k.a. The businessman";
